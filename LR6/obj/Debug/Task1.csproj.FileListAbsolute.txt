@@ -1,0 +1,7 @@
+E:\Projects\C#\LR6\LR6\bin\Debug\LR6.exe.config
+E:\Projects\C#\LR6\LR6\bin\Debug\LR6.exe
+E:\Projects\C#\LR6\LR6\bin\Debug\LR6.pdb
+E:\Projects\C#\LR6\LR6\obj\Debug\Task1.csproj.AssemblyReference.cache
+E:\Projects\C#\LR6\LR6\obj\Debug\Task1.csproj.CoreCompileInputs.cache
+E:\Projects\C#\LR6\LR6\obj\Debug\LR6.exe
+E:\Projects\C#\LR6\LR6\obj\Debug\LR6.pdb

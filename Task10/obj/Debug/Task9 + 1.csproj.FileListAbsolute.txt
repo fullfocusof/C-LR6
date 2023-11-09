@@ -1,0 +1,10 @@
+E:\Projects\C#\LR6\Task10\bin\Debug\Task10.exe.config
+E:\Projects\C#\LR6\Task10\bin\Debug\Task10.exe
+E:\Projects\C#\LR6\Task10\bin\Debug\Task10.pdb
+E:\Projects\C#\LR6\Task10\obj\Debug\Task9 + 1.csproj.AssemblyReference.cache
+E:\Projects\C#\LR6\Task10\obj\Debug\Task10.StarStringForm.resources
+E:\Projects\C#\LR6\Task10\obj\Debug\Task10.Properties.Resources.resources
+E:\Projects\C#\LR6\Task10\obj\Debug\Task9 + 1.csproj.GenerateResource.cache
+E:\Projects\C#\LR6\Task10\obj\Debug\Task9 + 1.csproj.CoreCompileInputs.cache
+E:\Projects\C#\LR6\Task10\obj\Debug\Task10.exe
+E:\Projects\C#\LR6\Task10\obj\Debug\Task10.pdb

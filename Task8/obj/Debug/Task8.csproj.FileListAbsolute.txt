@@ -1,0 +1,7 @@
+E:\Projects\C#\LR6\Task8\bin\Debug\Task8.exe.config
+E:\Projects\C#\LR6\Task8\bin\Debug\Task8.exe
+E:\Projects\C#\LR6\Task8\bin\Debug\Task8.pdb
+E:\Projects\C#\LR6\Task8\obj\Debug\Task8.csproj.AssemblyReference.cache
+E:\Projects\C#\LR6\Task8\obj\Debug\Task8.csproj.CoreCompileInputs.cache
+E:\Projects\C#\LR6\Task8\obj\Debug\Task8.exe
+E:\Projects\C#\LR6\Task8\obj\Debug\Task8.pdb
