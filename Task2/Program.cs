@@ -94,7 +94,9 @@ namespace Task2
 
         static void Main(string[] args)
         {
+            Console.WriteLine("Первый массив");
             int[] ar1 = genArr();
+            Console.WriteLine("\nВторой массив");
             int[] ar2 = genArr();
 
             int[] result = GetIntersection(ar1, ar2);

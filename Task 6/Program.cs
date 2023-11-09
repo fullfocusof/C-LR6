@@ -87,16 +87,21 @@ namespace Task_6
             return result;
         }
 
-        static void SwapCol(int[,] arr, int[] id)
+        static void ReplaceCol(int[,] arr, int[] id)
         {
             for (int i = 0; i < id.Length; i++)
             {
                 for (int j = 0; j < arr.GetLength(0); j++)
                 {
                     int temp = arr[j, id[i]];
-                    arr[j, id[i]] = arr[j, arr.GetLength(1) - 1];
+                    int curID = id[i];
+                    while (curID + 1 < arr.GetLength(1))
+                    {
+                        arr[j, curID] = arr[j, curID + 1];
+                        curID++;
+                    }                   
                     arr[j, arr.GetLength(1) - 1] = temp;
-                }
+                }       
             }
         }
 
@@ -112,7 +117,7 @@ namespace Task_6
             Console.Write("\nID столбцов с 2 отрицательными значениями: ");
             printAr(temp);
 
-            SwapCol(arr, temp);
+            ReplaceCol(arr, temp);
             Console.WriteLine("\n\nРезультат");
             printAr(arr);
 

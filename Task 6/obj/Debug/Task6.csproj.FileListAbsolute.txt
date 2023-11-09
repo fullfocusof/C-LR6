@@ -5,3 +5,11 @@ E:\Projects\C#\LR6\Task 6\obj\Debug\Task6.csproj.AssemblyReference.cache
 E:\Projects\C#\LR6\Task 6\obj\Debug\Task6.csproj.CoreCompileInputs.cache
 E:\Projects\C#\LR6\Task 6\obj\Debug\Task 6.exe
 E:\Projects\C#\LR6\Task 6\obj\Debug\Task 6.pdb
+D:\Users\class\source\repos\C-LR6\Task 6\bin\Debug\Task 6.exe.config
+D:\Users\class\source\repos\C-LR6\Task 6\bin\Debug\Task 6.exe
+D:\Users\class\source\repos\C-LR6\Task 6\bin\Debug\Task 6.pdb
+D:\Users\class\source\repos\C-LR6\Task 6\obj\Debug\Task6.csproj.AssemblyReference.cache
+D:\Users\class\source\repos\C-LR6\Task 6\obj\Debug\Task6.csproj.SuggestedBindingRedirects.cache
+D:\Users\class\source\repos\C-LR6\Task 6\obj\Debug\Task6.csproj.CoreCompileInputs.cache
+D:\Users\class\source\repos\C-LR6\Task 6\obj\Debug\Task 6.exe
+D:\Users\class\source\repos\C-LR6\Task 6\obj\Debug\Task 6.pdb

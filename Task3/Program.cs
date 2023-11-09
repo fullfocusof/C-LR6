@@ -55,7 +55,7 @@ namespace Task3
             Random rand = new Random();
             for (int i = 0; i < temp.Length; i++)
             {
-                temp[i] = rand.Next(-15, 31);
+                temp[i] = rand.Next(30, 31);
             }
 
             return temp;

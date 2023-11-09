@@ -5,3 +5,11 @@ E:\Projects\C#\LR6\Task2\obj\Debug\Task2.csproj.AssemblyReference.cache
 E:\Projects\C#\LR6\Task2\obj\Debug\Task2.csproj.CoreCompileInputs.cache
 E:\Projects\C#\LR6\Task2\obj\Debug\Task2.exe
 E:\Projects\C#\LR6\Task2\obj\Debug\Task2.pdb
+D:\Users\class\source\repos\C-LR6\Task2\bin\Debug\Task2.exe.config
+D:\Users\class\source\repos\C-LR6\Task2\bin\Debug\Task2.exe
+D:\Users\class\source\repos\C-LR6\Task2\bin\Debug\Task2.pdb
+D:\Users\class\source\repos\C-LR6\Task2\obj\Debug\Task2.csproj.AssemblyReference.cache
+D:\Users\class\source\repos\C-LR6\Task2\obj\Debug\Task2.csproj.SuggestedBindingRedirects.cache
+D:\Users\class\source\repos\C-LR6\Task2\obj\Debug\Task2.csproj.CoreCompileInputs.cache
+D:\Users\class\source\repos\C-LR6\Task2\obj\Debug\Task2.exe
+D:\Users\class\source\repos\C-LR6\Task2\obj\Debug\Task2.pdb

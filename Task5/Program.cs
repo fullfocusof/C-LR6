@@ -92,24 +92,22 @@ namespace Task5
 
         static void sort(int[,] array)
         {
-            for (int j = 0; j < array.GetLength(1); j++)
+            int[] tempMin = new int[array.GetLength(1)];
+
+            for (int i = 0; i < array.GetLength(0); i++)
             {
-                bool isSorted = false;
-                while (!isSorted)
+                int minInCol = 151;
+                for (int j = 0; j < array.GetLength(1); j++)
                 {
-                    isSorted = true;
-                    for (int i = 1; i < array.GetLength(0); i++)
+                    if (array[j, i] < minInCol)
                     {
-                        if (array[i,j] < array[i - 1, j])
-                        {
-                            int temp = array[i, j];
-                            array[i, j] = array[i - 1, j];
-                            array[i - 1, j] = temp;
-                            isSorted = false;
-                        }
+                        minInCol = array[j, i];
                     }
                 }
+                tempMin[i] = minInCol;
             }
+
+            //перестановка
         }
 
         static void Main(string[] args)

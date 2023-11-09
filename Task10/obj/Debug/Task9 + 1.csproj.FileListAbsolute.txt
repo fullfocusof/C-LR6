@@ -8,3 +8,14 @@ E:\Projects\C#\LR6\Task10\obj\Debug\Task9 + 1.csproj.GenerateResource.cache
 E:\Projects\C#\LR6\Task10\obj\Debug\Task9 + 1.csproj.CoreCompileInputs.cache
 E:\Projects\C#\LR6\Task10\obj\Debug\Task10.exe
 E:\Projects\C#\LR6\Task10\obj\Debug\Task10.pdb
+D:\Users\class\source\repos\C-LR6\Task10\bin\Debug\Task10.exe.config
+D:\Users\class\source\repos\C-LR6\Task10\bin\Debug\Task10.exe
+D:\Users\class\source\repos\C-LR6\Task10\bin\Debug\Task10.pdb
+D:\Users\class\source\repos\C-LR6\Task10\obj\Debug\Task9 + 1.csproj.AssemblyReference.cache
+D:\Users\class\source\repos\C-LR6\Task10\obj\Debug\Task9 + 1.csproj.SuggestedBindingRedirects.cache
+D:\Users\class\source\repos\C-LR6\Task10\obj\Debug\Task10.StarStringForm.resources
+D:\Users\class\source\repos\C-LR6\Task10\obj\Debug\Task10.Properties.Resources.resources
+D:\Users\class\source\repos\C-LR6\Task10\obj\Debug\Task9 + 1.csproj.GenerateResource.cache
+D:\Users\class\source\repos\C-LR6\Task10\obj\Debug\Task9 + 1.csproj.CoreCompileInputs.cache
+D:\Users\class\source\repos\C-LR6\Task10\obj\Debug\Task10.exe
+D:\Users\class\source\repos\C-LR6\Task10\obj\Debug\Task10.pdb

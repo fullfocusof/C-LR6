@@ -182,7 +182,7 @@ namespace Task7
             Console.WriteLine("\nСокращенный массив");
             printAr(temp);
 
-            int[,] res = new int[0, 0];
+            int[,] res;
 
             if (temp.GetLength(0) % 2 == 0 && temp.GetLength(1) % 2 == 0)
             {
