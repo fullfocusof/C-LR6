@@ -94,10 +94,10 @@ namespace Task5
         {
             int[] tempMin = new int[array.GetLength(1)];
 
-            for (int i = 0; i < array.GetLength(0); i++)
+            for (int i = 0; i < array.GetLength(1); i++)
             {
                 int minInCol = 151;
-                for (int j = 0; j < array.GetLength(1); j++)
+                for (int j = 0; j < array.GetLength(0); j++)
                 {
                     if (array[j, i] < minInCol)
                     {
@@ -107,7 +107,25 @@ namespace Task5
                 tempMin[i] = minInCol;
             }
 
-            //перестановка
+            for (int i = 0; i < array.GetLength(1) - 1; i++)
+            {
+                for (int j = i + 1; j < array.GetLength(1); j++)
+                {
+                    if (tempMin[j] < tempMin[i])
+                    {
+                        int temp = tempMin[i];
+                        tempMin[i] = tempMin[j];
+                        tempMin[j] = temp;
+
+                        for (int k = 0; k < array.GetLength(0); k++)
+                        {
+                            int tempValue = array[k, i];
+                            array[k, i] = array[k, j];
+                            array[k, j] = tempValue;
+                        }
+                    }
+                }
+            }
         }
 
         static void Main(string[] args)

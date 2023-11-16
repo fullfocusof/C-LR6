@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -56,54 +57,59 @@ namespace Task_6
             {
                 for (int j = 0; j < temp.GetLength(1); j++)
                 {
-                    temp[i, j] = rand.Next(-50, 151);
+                    temp[i, j] = rand.Next(-50, 10);
                 }
             }
 
             return temp;
         }
 
-        static int[] GetIDofCol(int[,] arr)
-        {
-            int[] result = new int[0];
 
-            for(int j = 0; j < arr.GetLength(1); j++)
+        static void ReplaceCol(int[,] arr)
+        {
+            int endPoint = arr.GetLength(1);
+            for (int s = 0; s < endPoint; s++)
             {
-                int cnt = 0;
+                int cntNeg = 0;
+                int colID = -1;
                 for (int i = 0; i < arr.GetLength(0); i++)
                 {
-                    if (arr[i,j] < 0)
+                    if (arr[i, s] < 0)
                     {
-                        cnt++;
+                        cntNeg++;
                     }
                 }
-                if(cnt == 2)
+                if (cntNeg == 2)
                 {
-                    Array.Resize(ref result, result.Length + 1);
-                    result[result.Length - 1] = j;
+                    colID = s;
                 }
-            }
 
-            return result;
-        }
-
-        static void ReplaceCol(int[,] arr, int[] id)
-        {
-            for (int i = 0; i < id.Length; i++)
-            {
-                for (int j = 0; j < arr.GetLength(0); j++)
+                if(colID != -1)
                 {
-                    int temp = arr[j, id[i]];
-                    int curID = id[i];
-                    while (curID + 1 < arr.GetLength(1))
+                    int[] temp = new int[arr.GetLength(0)];
+                    for (int i = 0; i < arr.GetLength(0); i++)
                     {
-                        arr[j, curID] = arr[j, curID + 1];
-                        curID++;
-                    }                   
-                    arr[j, arr.GetLength(1) - 1] = temp;
-                }       
-            }
-        }
+                        temp[i] = arr[i, colID];
+                    }
+
+                    for (int i = colID + 1; i < arr.GetLength(1); i++)
+                    {
+                        for (int j = 0; j < arr.GetLength(0); j++)
+                        {
+                            arr[j, i - 1] = arr[j, i];
+                        }
+                    }
+
+                    for (int i = 0; i < arr.GetLength(0); i++)
+                    {
+                        arr[i, arr.GetLength(1) - 1] = temp[i];
+                    }
+
+                    s--;
+                    endPoint--;
+                }     
+            } 
+        }        
 
         static void Main(string[] args)
         {
@@ -113,11 +119,7 @@ namespace Task_6
             Console.WriteLine("Массив");
             printAr(arr);
 
-            int[] temp = GetIDofCol(arr);
-            Console.Write("\nID столбцов с 2 отрицательными значениями: ");
-            printAr(temp);
-
-            ReplaceCol(arr, temp);
+            ReplaceCol(arr);
             Console.WriteLine("\n\nРезультат");
             printAr(arr);
 

@@ -14,28 +14,25 @@ namespace Task9
             string curNum = "";
             bool isNegative = false;
 
-            foreach (char c in input)
+            for (int i = 0; i < input.Length; i++)
             {
-                if(char.IsDigit(c))
+                if (char.IsDigit(input[i]))
                 {
-                    curNum += c;
+                    curNum += input[i];
                 }
-                else if(curNum.Length > 0)
+                else if (curNum.Length > 0)
                 {
-                    if(int.TryParse(curNum, out int num))
+                    if (int.TryParse(curNum, out int num))
                     {
                         sum += isNegative ? -num : num;
                         isNegative = false;
                     }
                     curNum = "";
                 }
-                else if (c == '-')
+
+                if (input[i] == '-' && char.IsDigit(input[i + 1]))
                 {
                     isNegative = true;
-                }
-                else
-                {
-                    isNegative = false;
                 }
             }
 

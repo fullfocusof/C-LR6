@@ -55,7 +55,7 @@ namespace Task3
             Random rand = new Random();
             for (int i = 0; i < temp.Length; i++)
             {
-                temp[i] = rand.Next(30, 31);
+                temp[i] = rand.Next(29, 31);
             }
 
             return temp;
@@ -105,11 +105,11 @@ namespace Task3
 
             for (int i = 0; i < arr.Length; i++)
             {       
-                for (int j = 0; j < arr.Length; j++)
+                for (int j = arr.Length - 1; j > i; j--)
                 {
-                    if (arr[i] == arr[j] && i != Array.IndexOf(arr, arr[i]))
+                    if (arr[i] == arr[j])
                     {
-                        ArrayErase(ref arr, i);
+                        ArrayErase(ref arr, j);
                     }
                 }
             }
